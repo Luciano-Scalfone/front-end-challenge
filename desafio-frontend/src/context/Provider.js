@@ -4,7 +4,8 @@ import MyContext from './MyContext';
 
 const AppProvider = ({ children }) => {
   const [posts, setPosts] = useState([]);
-  const state = { posts, setPosts };
+  const [singlePost, setSinglePost] = useState([]);
+  const state = { posts, setPosts, singlePost, setSinglePost };
 
   return (
     <MyContext.Provider value={ state }>

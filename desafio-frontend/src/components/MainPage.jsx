@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import MyContext from '../context/MyContext';
-import lastTenBlogPosts from '../service';
+import { lastTenBlogPosts } from '../service';
 import PostCard from './PostCard';
 
 const MainPage = () => {

@@ -7,7 +7,7 @@ header {
 
   .search-bar {
     @include display-flex;
-    width: 80%;
+    width: 75%;
 
     div {
       @include display-flex;
@@ -35,6 +35,10 @@ header {
         outline: none;
         text-align: center;
         width: 7%;
+
+        &:hover {
+          background-color: lighten($button-color, 10);
+        }
       }
     }
   }

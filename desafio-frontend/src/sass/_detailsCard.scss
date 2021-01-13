@@ -1,0 +1,18 @@
+.details {
+  @include display-flex;
+  flex-direction: column;
+  padding-top: 10vh;
+  width: 100%;
+
+  .title {
+    width: 70%;
+
+    img {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
