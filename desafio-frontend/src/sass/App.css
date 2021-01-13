@@ -87,7 +87,7 @@ header .search-bar div button:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 10vh;
+  padding-top: 5vh;
   width: 100%;
 }
 
@@ -172,7 +172,7 @@ header .search-bar div button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 10vh;
+  padding-top: 5vh;
   width: 100%;
 }
 
