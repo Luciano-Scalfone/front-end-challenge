@@ -1,0 +1,71 @@
+header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rebeccapurple;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 60px;
+  width: 100%;
+}
+
+header .search-bar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+}
+
+header .search-bar div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 60px;
+  width: 70%;
+}
+
+header .search-bar div input {
+  border: 2px solid #ba007c;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 40px;
+  margin-left: 40px;
+  outline: none;
+  width: 40%;
+}
+
+header .search-bar div button {
+  background-color: #ba007c;
+  border: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 20px;
+  height: 45px;
+  outline: none;
+  text-align: center;
+  width: 7%;
+}
+/*# sourceMappingURL=App.css.map */

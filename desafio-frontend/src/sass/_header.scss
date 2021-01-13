@@ -1,0 +1,41 @@
+header {
+  @include display-flex;
+  background-color: $header-color;
+  flex-direction: column;
+  height: 60px;
+  width: 100%;
+
+  .search-bar {
+    @include display-flex;
+    width: 80%;
+
+    div {
+      @include display-flex;
+      justify-content: flex-start;
+      height: 60px;
+      width: 70%;
+
+      input {
+        border: 2px solid $button-color;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        height: 40px;
+        margin-left: 40px;
+        outline: none;
+        width: 40%;
+      }
+
+      button {
+        background-color: $button-color;
+        border: none;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        font-size: 20px;
+        height: 45px;
+        outline: none;
+        text-align: center;
+        width: 7%;
+      }
+    }
+  }
+}
